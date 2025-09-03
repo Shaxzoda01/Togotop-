@@ -136,3 +136,28 @@ nav {
     letter-spacing: 0px;
     margin-bottom: 73px;
 }
+
+
+
+
+.issues__title{
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 45px;
+color: #FFFFFF;
+line-height: 130%;
+letter-spacing: 3%;
+
+
+}
+.issues__span{
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 45px;
+
+line-height: 130%;
+letter-spacing: 3%;
+color: #2CB67D;
+}
