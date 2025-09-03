@@ -5,56 +5,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TOGOTOP</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/global.css" />
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
   <div class="hero">
-    <header class="header">
-      <div class="container">
+    <header class="container">
+      <div>
         <a href="#"><img class="header__logo" src="./images/logo.svg" alt=""></a>
-
-        <nav class="header__nav">
-          <a href="#" class="header__link">Как это работает</a>
-          <div class="dropdown">
-            <input type="checkbox" id="dropdown-partners" class="dropdown__checkbox" hidden>
-            <label for="dropdown-partners" class="dropdown__toggle">
-              Партнёрам
-              <img class="dropdown__arrow"></img>
-            </label>
-
-            <ul class="dropdown__list">
-              <li class="dropdown__item"><a href="#">Аналитика</a></li>
-              <li class="dropdown__item"><a href="#">Продвижение</a></li>
-            </ul>
-          </div>
-
-          <a href="#" class="header__link">Тарифы</a>
-          <a href="#" class="header__link">Переезд на TOGOTOP</a>
-          <div class="dropdown">
-            <input type="checkbox" id="dropdown-partners" class="dropdown__checkbox" hidden>
-            <label for="dropdown-partners" class="dropdown__toggle">
-              Партнёрам
-              <img class="dropdown__arrow"></img>
-            </label>
-
-            <ul class="dropdown__list">
-              <li class="dropdown__item"><a href="#">Аналитика</a></li>
-              <li class="dropdown__item"><a href="#">Продвижение</a></li>
-            </ul>
-          </div>
-          <a href="#" class="header__link">Помощь</a>
-        </nav>
-
-        <div class="header__auth">
-          <a href="#" class="header__button header__button--login">Войти</a>
-          <a href="#" class="header__button header__button--register">Зарегистрироваться</a>
-        </div>
+        <p class="header__text">Продвижение товаров на Wildberries</p>
+      </div>
+      <div>
+        <a class="header__signin" href="#">Войти</a>
+        <a class="header__signup" href="#">Зарегистрироваться</a>
       </div>
     </header>
+    <nav class="container">
+      <a href="#" class="header__link">Как это работает</a>
+      <div class="dropdown">
+        <input type="checkbox" id="dropdown-partners" class="dropdown__checkbox" hidden>
+        <label for="dropdown-partners" class="dropdown__toggle">
+          Партнёрам
+          <img class="dropdown__arrow"></img>
+        </label>
 
-    <section class="home">
+        <ul class="dropdown__list">
+          <li class="dropdown__item"><a href="#">Аналитика</a></li>
+          <li class="dropdown__item"><a href="#">Продвижение</a></li>
+        </ul>
+      </div>
+      <a href="#" class="header__link">Тарифы</a>
+      <a href="#" class="header__link">Переезд на TOGOTOP</a>
+      <div class="dropdown">
+        <input type="checkbox" id="dropdown-partners" class="dropdown__checkbox" hidden>
+        <label for="dropdown-partners" class="dropdown__toggle">
+          Партнёрам
+          <img class="dropdown__arrow"></img>
+        </label>
+
+        <ul class="dropdown__list">
+          <li class="dropdown__item"><a href="#">Аналитика</a></li>
+          <li class="dropdown__item"><a href="#">Продвижение</a></li>
+        </ul>
+      </div>
+      <a href="#" class="header__link">Помощь</a>
+    </nav>
+
+    <section class="home container">
       <div class="home__container">
         <div class="home__content">
           <h1 class="home__title">
