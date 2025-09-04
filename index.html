@@ -7,8 +7,8 @@
   <title>TOGOTOP</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./css/global.css" />
   <link rel="stylesheet" href="./style.css" />
 </head>
@@ -57,45 +57,83 @@
     </nav>
 
     <section class="home container">
-      <div class="home__container">
-        <div class="home__content">
+      <div class="home__wrapper">
+        <div class="home__inner">
           <h1 class="home__title">
-            С TOGOTOP <span class="home__highlight--purple">ваши товары</span> всегда будут <span
-              class="home__highlight home__highlight--green">в ТОПе</span>
+            С TOGOTOP
+            <span class="home__highlight--purple">ваши товары</span> всегда
+            будут <span class="home__highlight--green">в ТОПе</span>
           </h1>
           <p class="home__text">
-            Полный набор инструментов для продвижения на Wildberries, которые выведут ваш бизнес на новый уровень.
+            Полный набор инструментов для продвижения на Wildberries, которые
+            выведут ваш бизнес на новый уровень.
           </p>
-          <a href="#" class="home__button">Попробовать бесплатно</a>
+          <a href="#" class="home__link">Попробовать бесплатно</a>
         </div>
 
         <div class="home__visual">
-          <div class="home__chart">
-            <div class="home__bars">
-              <span class="home__bar home__bar--small"></span>
-              <span class="home__bar home__bar--medium"></span>
-              <span class="home__bar home__bar--medium-high"></span>
-              <span class="home__bar home__bar--high"></span>
-              <span class="home__bar home__bar--max"></span>
+          <img src="./images/hero card.svg" alt="" width="900px" />
+        </div>
+      </div>
+      <section class="stats-bar">
+        <div class="stats-bar__wrapper">
+          <div class="stats-bar__item">
+            <div class="stats-bar__number">
+              <span class="stats-bar__number--green">3</span>
+              <span class="stats-bar__number--green">1</span>
+              <span class="stats-bar__number--green">9</span>
+              <span class="stats-bar__number--green">6</span>
             </div>
+            <p class="stats-bar__text">Зарегистрировались на сервисе</p>
+          </div>
+          <div class="stats-bar__item">
+            <div class="stats-bar__number">
+              <span class="stats-bar__number--purple">3</span>
+              <span class="stats-bar__number--purple">1</span>
+              <span class="stats-bar__number--purple">9</span>
+              <span class="stats-bar__number--purple">7</span>
+              <span class="stats-bar__number--purple">5</span>
+              <span class="stats-bar__number--purple">8</span>
+            </div>
+            <p class="stats-bar__text">Сделанных выкупов</p>
+          </div>
+          <div class="stats-bar__item">
+            <div class="stats-bar__number stats-bar__number--green">
+              <span class="stats-bar__number--green">3</span>
+              <span class="stats-bar__number--green">1</span>
+              <span class="stats-bar__number--green">9</span>
+              <span class="stats-bar__number--green">7</span>
+              <span class="stats-bar__number--green">8</span>
+            </div>
+            <p class="stats-bar__text">Действий с товарами</p>
+          </div>
+        </div>
+      </section>
+    </section>
 
-            <div class="home__product-card">
-              <img src="sneakers.png" alt="Спортивные кроссовки" class="home__product-image">
-              <div class="home__product-info">
-                <p class="home__product-title">Спортивные кроссовки</p>
-                <p class="home__product-rating"> 4.9 <span class="home__product-reviews">(1756 отзывов)</span></p>
-              </div>
-              <div class="home__icons">
-                <span class="home__icon home__icon--like"></span>
-                <span class="home__icon home__icon--chat"></span>
-                <span class="home__icon home__icon--cart"></span>
-                <span class="home__icon home__icon--star"></span>
-              </div>
+    <!--==========POSSIBILITY==============-->
+    <section class="possibility">
+      <div class="container">
+        <div class="possibility__wrapper">
+          <h1 class="possibility__title">Возможности <span>сервиса</span></h1>
+          <div class="possibility__about-wrapper">
+            <div><img src="./images/possibility.img.png" alt="img" /></div>
+            <div class="possibility__text-wrapper">
+              <h3 class="possibility__about-title">
+                Автоматизированная <br />
+                система самовыкупов
+              </h3>
+              <p class="possibility__about-text">
+                Поставщики, производители, владельцы <br />
+                интернет-магазинов, которые планируют <br />
+                расширить каналы сбыта через маркетплейсы.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <!--=====================================-->
     <section class="issues">
@@ -144,21 +182,108 @@
 
     </section>
 
-    <!--=====================================-->
-    <section>
+      <!--============ISSUES===============-->
+      <section class="issues">
+        <div class="container">
+          <h2 class="issues__title">
+            Проблемы, которые <span class="issues__span">решает TOGOTOP</span>
+          </h2>
+          <div class="buttons">
+            <h1 class="button1">Масштабирование</h1>
+            <h1 class="button2">Автоматизация</h1>
+            <h1 class="button3">Репутация</h1>
+            <h1 class="button4">Аналитика</h1>
+          </div>
+          <div class="sale">
+            <div class="picture">
+              <img src="./images/677144Asset 1 3.png" alt="" />
+    <h2 class="issues__title">Проблемы, которые <span class="issues__span">решает TOGOTOP</span> </h2>
+    <div class="buttons">
+      <h1 class="button1">Масштабирование</h1>
+      <h1 class="button2">Автоматизация</h1>
+      <h1 class="button3">Репутация</h1>
+      <h1 class="button4">Аналитика</h1>
+    </div>
+    <div class="sale">
+      <div class="picture"><img src="./images/677144Asset 1 3.png" alt=""></div>
+      <div>
+        <h1 class="sale__title">Увеличение объема продаж</h1>
+        <h2 class="sale__subtitle"><span class="sale__subtitle-span">Проблема</span>: нет понимания, как
+          масштабировать
+          свой бизнес на Wildberries.</h2>
+        <h2 class="sale__subtitle2"><span class="sale__subtitle-span2">Решение</span>: в TOGOTOP есть все
+          инструменты
+          для продвижения товарных карточек
+          в ТОП категорий маркетплейса.</h2>
 
-    </section>
+        <!--=====================================-->
+        <section class="issues">
+          <div class="container">
+            <h2 class="issues__title">
+              Проблемы, которые <span class="issues__span">решает TOGOTOP</span>
+            </h2>
+            <div class="buttons">
+              <h1 class="button1">Масштабирование</h1>
+              <h1 class="button2">Автоматизация</h1>
+              <h1 class="button3">Репутация</h1>
+              <h1 class="button4">Аналитика</h1>
+            </div>
+            <div class="sale">
+              <div class="picture">
+                <img src="./images/677144Asset 1 3.png" alt="" />
+              </div>
+              <div>
+                <h1 class="sale__title">Увеличение объема продаж</h1>
+                <h2 class="sale__subtitle">
+                  <span class="sale__subtitle-span">Проблема</span>: нет
+                  понимания, как масштабировать свой бизнес на Wildberries.
+                </h2>
+                <h2 class="sale__subtitle2">
+                  <span class="sale__subtitle-span2">Решение</span>: в TOGOTOP
+                  есть все инструменты для продвижения товарных карточек в ТОП
+                  категорий маркетплейса.
+                </h2>
+              </div>
 
-    <!--=====================================-->
-    <section>
 
-    </section>
-    <!--=====================================-->
-    <footer>
+            </div>
+          </div>
+        </section>
 
-    </footer>
-  </div>
 
+      <!--=============PARTNERS================-->
+      <section class="partners">
+        <div class="container">
+          <h1 class="partners__title">Наши <span>партнеры</span></h1>
+          <div class="partners__logo-wrapper">
+            <img src="./images/partners.logo1.svg" alt="logo" />
+            <img src="./images/partners.logo2.svg" alt="logo" />
+            <img src="./images/partners.logo3.svg" alt="logo" />
+            <img src="./images/partners.logo4.svg" alt="logo" />
+            <img src="./images/partners.logo5.svg" alt="logo" />
+          </div>
+        </div>
+      </section>
+
+      <!--===========SUITABLE===============-->
+      <section></section>
+        <!--=====================================-->
+        <section></section>
+
+        <!--=====================================-->
+        <section></section>
+
+        <!--=====================================-->
+        <section></section>
+
+        <!--=====================================-->
+        <section></section>
+
+        <!--=====================================-->
+        <section></section>
+        <!--=====================================-->
+        <footer></footer>
+      </div>
 </body>
 
 </html>
