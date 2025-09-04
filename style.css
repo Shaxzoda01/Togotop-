@@ -165,6 +165,20 @@ nav {
 }
 
 .stats-bar {
+
+    border: 1px solid #404040;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 62px;
+}
+
+.stats-bar__wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #191919;
+    border-radius: 20px;
+    padding: 10px 27px;
+
   border: 1px solid #404040;
   border-radius: 20px;
   padding: 10px;
@@ -175,6 +189,7 @@ nav {
   background-color: #191919;
   border-radius: 20px;
   padding: 10px 27px;
+
 }
 
 .stats-bar__item {
@@ -184,13 +199,184 @@ nav {
 }
 
 .stats-bar__number span {
+
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: #262626;
+    padding: 4px 6px;
+    border-radius: 7px;
+    font-size: 34px;
   background-color: #262626;
   padding: 12px 6px;
   border-radius: 7px;
   font-size: 34px;
 }
 
+.stats-bar__number--green {
+    color: #2CB67D;
+}
+
+.stats-bar__number--purple {
+    color: #7F5AF0;
+}
+
 .stats-bar__text {
+
+    font-family: Circe;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0px;
+}
+
+
+
+.issues__title {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45px;
+    color: #FFFFFF;
+    line-height: 130%;
+    letter-spacing: 3%;
+
+
+}
+
+.issues__span {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 3%;
+    color: #2CB67D;
+}
+
+.issues {
+    margin-top: 50px;
+}
+
+.buttons {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.button1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    padding: 10px;
+
+    line-height: 120%;
+    letter-spacing: 3%;
+    border: 1px solid #FFFFFF;
+    width: 250px;
+
+
+    background-color: #2CB67D;
+
+    border-radius: 25px;
+
+}
+
+.button2 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    padding: 10px;
+
+    line-height: 120%;
+    letter-spacing: 3%;
+    border: 1px solid #7F5AF0;
+    width: 250px;
+    background-color: #141414;
+    border-radius: 25px;
+}
+
+.button3 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    padding: 10px;
+
+    line-height: 120%;
+    letter-spacing: 3%;
+    border: 1px solid #7F5AF0;
+    width: 250px;
+    background-color: #141414;
+    border-radius: 25px;
+}
+
+.button4 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    padding: 10px;
+
+    line-height: 120%;
+    letter-spacing: 3%;
+    border: 1px solid #7F5AF0;
+    width: 250px;
+    background-color: #141414;
+    border-radius: 25px;
+}
+
+.sale {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.sale__title {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 35px;
+
+    line-height: 130%;
+    letter-spacing: 3%;
+    width: 376px;
+    height: 90;
+    top: 2109px;
+    left: 821px;
+
+    opacity: 1;
+
+}
+
+.sale__subtitle-span {
+    font-family: Circe;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+
+    line-height: 147%;
+    letter-spacing: 0px;
+    color: #7F5AF0;
+}
+
+.sale__subtitle {
+    font-family: Circe;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    width: 427px;
+    line-height: 147%;
+    letter-spacing: 0px;
+    margin-top: 55px;
   font-family: Circe;
   font-weight: 400;
   font-style: Regular;
@@ -481,6 +667,85 @@ nav {
   }
 }
 
+.sale__subtitle-span2 {
+    font-family: Circe;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 147%;
+    letter-spacing: 0px;
+    color: #2CB67D;
+}
+
+.sale__subtitle2 {
+    font-family: Circe;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    margin-top: 54px;
+    line-height: 147%;
+    letter-spacing: 0px;
+    width: 444px;
+
+}
+
+.picture {
+    width: 100%;
+}
+
+@media(max-width:320px) {
+    .buttons {
+        display: grid;
+        grid-template-columns: auto;
+
+        gap: 20px;
+    }
+
+    .sale {
+        display: inline;
+    }
+
+    .picture {
+        width: 300px;
+    }
+
+    .sale__title {
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+
+        line-height: 135%;
+        letter-spacing: 3%;
+
+    }
+
+    .sale__subtitle {
+        font-family: Circe;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 15px;
+
+        line-height: 157%;
+        letter-spacing: 0px;
+
+    }
+
+    .sale__subtitle2 {
+        font-family: Circe;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 15px;
+
+        line-height: 157%;
+        letter-spacing: 0px;
+
+    }
+
+    .block {
+        display: block;
+    }
+}
 html,
 body {
   max-width: 100%;
